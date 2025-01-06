@@ -51,6 +51,6 @@ form.addEventListener("submit", (e) => {
     }
 
 
-    const weatherData = await getWeatherData(cityInput);
+    const weatherData = getWeatherData(cityInput);
     displayWeather(weatherData);
 });
