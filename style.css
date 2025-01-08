@@ -7,6 +7,11 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(to right, #4facfe, #00f2fe);
+    background-image: url('assets/weather2.png'); /* Change this to your logo path */
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain; /* Resize the image to fit proportionally */
+    opacity: 0.8; /* Make the background image slightly transparent */
     min-height: 100vh;
     display: flex;
     justify-content: center;
