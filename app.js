@@ -1,5 +1,5 @@
 //openWeatherMap API key
-const apiKey = "30d407abe5423f52cc08e17335c9e00f";
+import { apiKey } from "./config.js";
 
 //Function to get weather data
 const getWeather = async (city) => {
