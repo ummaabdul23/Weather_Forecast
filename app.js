@@ -1,5 +1,5 @@
 //openWeatherMap API key
-const apiKey = "";
+const apiKey = "30d407abe5423f52cc08e17335c9e00f";
 
 //Function to get weather data
 const getWeather = async (city) => {
@@ -28,6 +28,7 @@ const displayWeather = (data) => {
     }
 
     const weatherContainer = document.getElementById("weather-container");
+    weatherContainer.style.display = "block";
     weatherContainer.innerHTML = `
         <h2>Weather in ${data.name}, ${data.sys.country}</h2>
         <p><strong>Temperature:</strong>${data.main.temp}°C</p>
@@ -51,6 +52,5 @@ form.addEventListener("submit", (e) => {
     }
 
 
-    const weatherData = getWeatherData(cityInput);
-    displayWeather(weatherData);
+    getWeather(cityInput).then(displayWeather);
 });
