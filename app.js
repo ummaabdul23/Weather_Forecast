@@ -9,7 +9,7 @@ const getWeather = async (city) => {
 
         const response = await fetch(base + query);
 
-         if(!response.ok) {:wq
+         if(!response.ok) {
              throw new Error('City not found');
         }
 
