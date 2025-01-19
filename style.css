@@ -7,7 +7,7 @@
 body{
     font-family: 'Poppins', sans-serif;
    /* background: linear-gradient(to right, #4facfe, #00f2fe);*/
-    background-image: url('assets/weather2.png'); /* Change this to your logo path */
+    background-image: url('assets/weather.png'); /* Change this to your logo path */
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; /* Resize the image to fit proportionally */
@@ -68,17 +68,9 @@ header h1{
     color: #2c3e50
 }
 
-#logo-banner {
-    width: 100%; /* Stretch the logo to full screen width */
-    height: 80px; /* Set a fixed height for a rectangular shape */
-    object-fit: cover; /* Ensures the image fits without distortion */
-    display: block;
-    margin: 0 auto; /* Center the logo horizontally (if needed) */
-}
-
 /*Form styles*/
 
-#serch-box{
+#search-box{
     display: flex;
     justify-content: center;
     align-items: center;
