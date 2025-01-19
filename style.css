@@ -76,7 +76,7 @@ nav {
     background-color: #3498db;
     padding: 10px 0;
     border-radius: 5px;
-    width: 45%;
+    width: 100%;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
@@ -111,7 +111,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 /*Form styles*/
@@ -176,7 +176,7 @@ main {
 }
 
 footer {
-    width: 45%; /* Make footer span the full width */
+    width: 100%; /* Make footer span the full width */
     background-color: #50a9e4; /* Dark background for contrast */
     color: white; /* White text for readability */
     text-align: center; /* Center the text */
